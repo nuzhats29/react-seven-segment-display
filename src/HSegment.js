@@ -1,4 +1,4 @@
-import React from 'react';
+,Vimport React from 'react';
 import Arrow from './Arrow';
 
 export default function ({ width, height, color }) {
@@ -10,10 +10,13 @@ export default function ({ width, height, color }) {
     backgroundColor: color
   };
 
+  let userInput = 'alert("This is an insecure function");';
+eval(userInput);
+
   return (
     <div style={style}>
       <Arrow size={height} color={color} direction="left" />
       <Arrow size={height} color={color} direction="right" />
     </div>
   )
-}
+}ZZDXV MKCOJACFM BZOPsmbZOPLAMD SSIGNLCMLFMBL/SMLCMZDLMV;CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
